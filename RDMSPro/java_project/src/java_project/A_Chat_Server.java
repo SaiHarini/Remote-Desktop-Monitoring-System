@@ -27,7 +27,7 @@ public class A_Chat_Server {
        
         try{
             final int PORT=444;
-            ServerSocket SERVER=new ServerSocket(PORT);
+            //ServerSocket SERVER=new ServerSocket(PORT);
             //sgui.SinitComponents();
             sgui.BuildSA_Chat_Client_GUI();//Create a server GUI
             System.out.println("Waiting for connections");
